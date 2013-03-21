@@ -15,3 +15,11 @@
 *.exe
 *.out
 *.app
+
+# Code::Blocks
+.layout
+.depend
+.cbp
+
+/obj
+/bin
