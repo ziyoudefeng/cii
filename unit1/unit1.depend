@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1363680744 source:e:\codeblocksprog\cii\unit1\double.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<ctype.h>
+	<string.h>
+
