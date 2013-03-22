@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1363916915 source:e:\codeblocksprog\cii\unit4\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1363920555 e:\codeblocksprog\cii\unit4\assert.h
+	<stdio.h>
+	<stdlib.h>
+
+1363918107 e:\codeblocksprog\cii\unit4\except.h
+	<setjmp.h>
+
+1363920522 source:e:\codeblocksprog\cii\unit4\assert.c
+	"assert.h"
+
