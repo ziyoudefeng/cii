@@ -61,6 +61,7 @@ void Mem_free(void *ptr, const char *file, int line)
         }
         bp->free = freelist.free;
         freelist.free = bp;
+        // 上面代码并没有修改htab中节点bp的link信息，也即htab保存有空闲块和非空闲块。
     }
 }
 
