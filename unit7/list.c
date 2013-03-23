@@ -7,7 +7,7 @@
 
 #define T List_T
 
- <functions 79>
+ //<functions 79>
  T List_push(T list, void *x)
  {
      T p;
@@ -17,6 +17,19 @@
      p->rest = list;
      return p;
  }
+
+
+/* List_list、List_append、List_copy使用了双重指针。
+ * 双重指针的机制处理了两种情况
+ * 1、向可能为空的链表添加初始结点；
+ * 2、向非空的链表添加内部结点。
+ *
+ * List_reverse的实现很巧妙，利用了两个指针list和next来遍历链表一次，
+ * 并使用这两个指针将链表就地反转，head总是指向反转后链表的第一个结点。
+ *
+ *
+*/
+
 
  T List_list(void *x, ...)
  {
