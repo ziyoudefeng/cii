@@ -1,4 +1,3 @@
-
 #include <stddef.h>
 #include "assert.h"
 #include "mem.h"
@@ -9,7 +8,7 @@
 //<types 18>
 struct T {
     int count;
-    struct elem { // struct elem�ڴ��ļ��ڿɼ�
+    struct elem { // struct elem在此文件内可见
         void *x;
         struct elem *link;
     } *head;
@@ -67,6 +66,6 @@ void Stack_free(T *stk)
         u = t->link;
         FREE(t);
     }
-    FREE(*stk); // ͷ�ڵ�
+    FREE(*stk); // 头节点
 }
 
