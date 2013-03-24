@@ -28,9 +28,9 @@ int main(int argc, char *argv[])
             fclose(fp);
         }
     }
-    //if (argc == 1) doubleword(NULL, stdin);
-    FILE *fp = fopen("test.txt", "r");
-    doubleword("test.txt", fp);
+    if (argc == 1) doubleword(NULL, stdin);
+    //FILE *fp = fopen("test.txt", "r");
+    //doubleword("test.txt", fp);
     return EXIT_SUCCESS;
 }
 
