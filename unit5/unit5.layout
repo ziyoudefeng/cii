@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="mem.c" open="1" top="0" tabpos="1">
+		<Cursor position="977" topLine="22" />
+	</File>
+	<File name="mem.h" open="1" top="0" tabpos="2">
+		<Cursor position="302" topLine="0" />
+	</File>
+	<File name="memchk.c" open="1" top="1" tabpos="3">
+		<Cursor position="1423" topLine="33" />
+	</File>
+</CodeBlocks_layout_file>

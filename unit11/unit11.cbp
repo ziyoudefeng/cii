@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="seq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seq.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -31,6 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="assert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assert.h" />
+		<Unit filename="except.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="except.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
